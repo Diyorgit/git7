@@ -27,7 +27,8 @@
 }
 
 .collection__list {
-    background-image: url('/images/Group\ 30.png');
+    background-image: url('../images/Group\ 30.png');
+    background-position: center top;
     background-repeat: no-repeat;
     padding-top: 126px;
     display: flex;
@@ -47,7 +48,6 @@
     }
 
     .collection__item {
-        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -60,7 +60,7 @@
     .collection__list {
         background-repeat: no-repeat;
         background-image: url('/images/Group\ 30\ \(1\).png');
-        background-position: top;
+        
     }
 
     .collection__text {
@@ -73,12 +73,11 @@
     }
 
     .collection__title {
-        position: absolute;
+        
         font-weight: 900;
         font-size: 24px;
         line-height: 32px;
         color: #333D4B;
-        top: 56px;
     }
 }
 
@@ -90,9 +89,8 @@
         display: flex;
         flex-direction: column;
     }
-
-    .collection__title {
-        top: 252px;
-        left: 48px;
+    .collection__item{
+        margin-bottom: 30px;
     }
+       
 }

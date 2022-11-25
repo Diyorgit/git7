@@ -112,3 +112,74 @@ footer {
 .footer__and-icon {
     margin-left: 24px;
 }
+
+@media screen and (max-width:1000px) {
+    .footer__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+    }
+
+    .footer__list {
+        max-width: 805px;
+    }
+
+    .footer__item {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .footer__title {
+        text-align: center;
+    }
+
+    .footer__item {
+        margin-bottom: 30px;
+    }
+
+    .footer__list {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer__bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .footer__and {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 690px;
+    }
+
+    .footer__foto {
+        max-width: 217px;
+        margin-bottom: 29px;
+    }
+
+    .footer__and-item {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:700px) {
+    .footer__and-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
